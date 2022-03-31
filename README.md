@@ -8,6 +8,7 @@
 * Topic modeling with SKLEARN
  * includes: Nonnegative Matrix Factorisation (NMF)
  * Singular Value Decomposition (SVD)
+ * SpaCy-processed lemma extracted NMF model 
 * Topic modeling with GENSIM
  * NMF unigrams and NMF bigrams
  * Latent Dirichlet Allocation (LDA) 
@@ -16,9 +17,11 @@
 
 
 ## STILL A WORK IN PROGRESS - FUTURE WORKS:
-* further tune the bi-gram NMF model with lemmatisation/stopword removal
+* Further refine models using different grammatical structures extracted with SpaCy in notebook (5)
+*   E.G. noun phrase, NER mentions etc.
 * Re-add tuned Latent Dirichlet Allocation & interactive visual for SKLEARN
+* Re-add the SVD model (required fixing before pushing changes - temporarily removed as of 31.03.22) 
 
 ## Possible Future Expansions
 * Possibly extend to paragraph summation techniques after topic modeling 
-* Some sort of sentiment analysis 
+* Some sort of sentiment analysis if applicable - perhaps by country over time
