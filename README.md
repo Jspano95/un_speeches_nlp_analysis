@@ -14,6 +14,10 @@
    * Latent Dirichlet Allocation (LDA) 
    * Hierarchical Dirichlet Process (HDP) (experimental implementation)
    * Optimal topic counts with Coherence optimisation
+* Automated text summarisations of speeches 
+  * TF-IDF
+  * LSA Algo
+  * TextRank Algo
 
 
 ## STILL A WORK IN PROGRESS - FUTURE WORKS:
@@ -23,5 +27,4 @@
 * Re-add the SVD model (required fixing before pushing changes - temporarily removed as of 31.03.22) 
 
 ## Possible Future Expansions
-* Possibly extend to paragraph summation techniques after topic modeling 
 * Some sort of sentiment analysis if applicable - perhaps by country over time
